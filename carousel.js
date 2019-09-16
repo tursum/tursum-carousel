@@ -178,19 +178,3 @@ const setCarousel = ({id, columns = 1, useArrows = false, useDrag = false, timer
 
 	dragCarousel();
 } //setCarousel
-
-setCarousel({
-	id: 'testimonials-carousel',
-	columns: 1,
-	useDrag: true,
-	timer: 3000,
-	transition: 500
-});
-
-setCarousel({
-	id: 'twitter-carousel',
-	columns: 1,
-	useDrag: true,
-	timer: 3000,
-	transition: 500
-});
